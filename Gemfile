@@ -23,6 +23,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'factory_girl_rails', '~> 4.7'
+  gem 'dotenv-rails'
 end
 
 group :development do
@@ -42,3 +43,4 @@ gem 'administrate'
 gem 'bourbon'
 gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
+gem 'dotenv-rails'
