@@ -20,10 +20,10 @@
 ## TODOS:
 - x Need to update end_date when confirmed
 - x Need to update audit log status when an overtime rejected
-- Update buttons on employee homepage so they show on mobile
-- Update buttons to include time span
-- Update buttons sort order on employee homepage
-- Remove unnecessary nav bar buttons for managers
+- x Update buttons on employee homepage so they show on mobile
+- x Update buttons to include time span
+- x Update buttons sort order on employee homepage
+- x Remove unnecessary nav bar buttons for managers
 - Fix admin dashboard bug
 - Implement Honeynadger error reporting
 - Implement new relic for keeping site alive
