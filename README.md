@@ -19,7 +19,7 @@
 
 ## TODOS:
 - x Need to update end_date when confirmed
-- Need to update audit log status when an overtime rejected
+- x Need to update audit log status when an overtime rejected
 - Update buttons on employee homepage so they show on mobile
 - Update buttons to include time span
 - Update buttons sort order on employee homepage
