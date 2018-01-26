@@ -26,4 +26,4 @@
 - x Remove unnecessary nav bar buttons for managers
 - x Fix admin dashboard bug
 - x Implement Rollbar error reporting
-- Implement new relic for keeping site alive
+- x Implement rake task and heroku scheduler to keep site alive
