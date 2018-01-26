@@ -25,5 +25,5 @@
 - x Update buttons sort order on employee homepage
 - x Remove unnecessary nav bar buttons for managers
 - x Fix admin dashboard bug
-- x Paid feature so just reviewed this option -> Implement Honeynadger error reporting
+- x Implement Rollbar error reporting
 - Implement new relic for keeping site alive
