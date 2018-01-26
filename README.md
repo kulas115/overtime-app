@@ -24,7 +24,6 @@
 - x Update buttons to include time span
 - x Update buttons sort order on employee homepage
 - x Remove unnecessary nav bar buttons for managers
-- Fix admin dashboard bug
-- Implement Honeynadger error reporting
+- x Fix admin dashboard bug
+- x Paid feature so just reviewed this option -> Implement Honeynadger error reporting
 - Implement new relic for keeping site alive
-- x Check on date issue and verify correct hours are being tracked
