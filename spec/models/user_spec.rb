@@ -35,6 +35,28 @@ RSpec.describe User, type: :model do
       @user.phone = "123456789012" #11 characters as per Polish numbers
       expect(@user).to_not be_valid
     end
+
+    it 'requires ssn attr ' do
+      @user.ssn = nil
+      expect(@user).to_not be_valid
+    end
+
+    it 'requires the ssn attr to only contain integers' do
+      @user.phone = "mygreatstrr" #11 characters as per Polish numbers
+      expect(@user).to_not be_valid
+    end
+
+    it 'requires the ssn attr to only have 4 chars' do
+      @user.phone = "12345" #11 characters as per Polish numbers
+      expect(@user).to_not be_valid
+    end
+
+    it 'requires a company' do
+      @user.company = nil
+      expect(@user).to_not be_valid
+    end
+
+
   end
 
   describe 'custom name methods' do
